@@ -1,0 +1,434 @@
+#+1495583959
+ls
+#+1495583961
+cd ..
+#+1495583962
+ls
+#+1495583973
+cd s1511536
+#+1495583975
+ls
+#+1495584006
+mkdir public_html
+#+1495584007
+ls
+#+1495584016
+ls
+#+1495584021
+cd public_html
+#+1495584033
+emacs abc.html
+#+1495584299
+ls
+#+1495584303
+cd public_html
+#+1495584304
+ls
+#+1495584310
+emacs abc.html
+#+1495584317
+ls
+#+1495584354
+cd ..
+#+1495584357
+ls -l
+#+1495584366
+cd public_html
+#+1495584368
+ls
+#+1495584518
+cd ..
+#+1495584519
+ls
+#+1495584568
+rails new my_diary --skip-bundle --skip-spring
+#+1495584598
+cd my_diary
+#+1495584633
+rails generate scaffold diary date:datetime title:string body:text
+#+1495584666
+rails db:migrate
+#+1495584730
+rails server -p 15536
+#+1495585237
+cd ..
+#+1495585238
+ls
+#+1495585241
+cd ..
+#+1495585242
+ls
+#+1495585246
+cd ..
+#+1495585247
+ls
+#+1495585281
+cd local/www/apache24/data/UID
+#+1495585287
+cd local
+#+1495585288
+ls
+#+1495585293
+cd www
+#+1495585293
+ls
+#+1495585299
+cd apache24
+#+1495585300
+ls
+#+1495585319
+cd data
+#+1495585319
+ls
+#+1495585341
+cd s1511536
+#+1495585342
+ls
+#+1495585469
+ln -s /home/s1511536/my_diary/public ./my_diary
+#+1495585502
+cd /home/s1511536/my_diary/public
+#+1495585506
+ls
+#+1495585509
+cd ..
+#+1495585510
+ls
+#+1495585515
+cd ..
+#+1495585516
+ls
+#+1495585538
+cd ..
+#+1495585539
+ls
+#+1495585546
+cd s1511536
+#+1495585547
+ls
+#+1495585553
+cd my_diary
+#+1495585554
+ls
+#+1495585572
+cd public
+#+1495585573
+ls
+#+1495585628
+emacs .htaccess
+#+1495585649
+ls
+#+1495585664
+emacs .htaccess
+#+1495585669
+ls
+#+1495585670
+ls -l
+#+1495585695
+ls -a
+#+1495585702
+ls
+#+1495585944
+cd ..
+#+1495585946
+ls
+#+1495586080
+cd config
+#+1495586081
+ls
+#+1495586084
+ls
+#+1495586097
+emacs application.rb
+#+1495586180
+cd ..
+#+1495586181
+ls
+#+1495586192
+rails restart
+#+1495586195
+ls
+#+1495586260
+cd app/views/diaries
+#+1495586261
+ls
+#+1495586269
+emacs _form.html.erb
+#+1495586371
+cd my_diary
+#+1495586374
+cd ..
+#+1495586375
+cd ..
+#+1495586377
+cd ..
+#+1495586389
+cd app
+#+1495586410
+cd vies/diaries/
+#+1495586413
+cd vies/diaries
+#+1495586418
+cd views/diaries
+#+1495586420
+ls
+#+1495586431
+emacs index.html.erb
+#+1495586579
+cd ..
+#+1495586583
+cd ../..
+#+1495586585
+ls
+#+1495586635
+cd app/views/diaries
+#+1495586641
+emacs index.html.erb
+#+1495586716
+ls
+#+1495586723
+cd ../../..
+#+1495586723
+ls
+#+1495586891
+rails generate model user name:string password:string
+#+1495586903
+rails db:migrate
+#+1495586913
+ls
+#+1495586974
+rails console
+#+1495587056
+rails console
+#+1495587247
+cd app/controllers/diaries
+#+1495587251
+cd app/controllers/
+#+1495587253
+ls
+#+1495587273
+emacs diaries_controller.rb
+#+1495588286
+emacs diaries_controller.rb
+#+1495588383
+rails console
+#+1495588425
+emacs diaries_controller.rb
+#+1495589206
+ls
+#+1495589208
+cd ..
+#+1495589209
+cd ..
+#+1495589210
+ls
+#+1495589370
+cd app/controllers
+#+1495589371
+ls
+#+1495589381
+emacs application_controllers.rb
+#+1495589385
+ls
+#+1495589396
+emacs application_controller.rb
+#+1495589442
+emacs diaries_controller.rb
+#+1495589496
+ls
+#+1495589507
+cd ../..
+#+1495589510
+cd views
+#+1495589512
+ls
+#+1495589518
+cd app
+#+1495589519
+ls
+#+1495589525
+cd views
+#+1495589525
+ls
+#+1495589531
+cd diaries
+#+1495589532
+ls
+#+1495589542
+emacs index.html.erb
+#+1495590373
+cd ../../..
+#+1495590374
+ls
+#+1495590837
+emacs Gemfile
+#+1495590856
+ruby --version
+#+1495590869
+gem install carrierwave
+#+1495590956
+cd app/controllers
+#+1495590958
+ls
+#+1495590964
+cd ..
+#+1495590967
+cd views
+#+1495590968
+ls
+#+1495590975
+cd diaries
+#+1495590975
+ls
+#+1495590983
+show.html.erb
+#+1495590990
+emacs show.html.erb
+#+1495591062
+exit
+#+1495593138
+ls
+#+1495593142
+cd my_diary
+#+1495593143
+ls
+#+1495593144
+cd app
+#+1495593146
+ls
+#+1495593151
+cd controllers
+#+1495593152
+ls
+#+1495593160
+emacs diraries_controller.rb
+#+1495593165
+ls
+#+1495593175
+emacs diaries_controller.rb
+#+1495593317
+cd ..
+#+1495593318
+cd ..
+#+1495593322
+rails console
+#+1495593409
+exit
+#+1497399163
+ls
+#+1497399167
+cd my_diary/
+#+1497399168
+ls
+#+1497399198
+emacs package.json
+#+1497399205
+ls
+#+1497400127
+cd app
+#+1497400127
+ls
+#+1497400130
+cd ..
+#+1497400312
+exit
+#+1497400466
+ls
+#+1497400472
+cd public_html
+#+1497400472
+ls
+#+1497400968
+cd ..
+#+1497400969
+ls
+#+1497400973
+cd ..
+#+1497400974
+ls
+#+1497400981
+cd s1511536
+#+1497400982
+ls
+#+1497401017
+cd public_html
+#+1497401017
+ls
+#+1497401024
+emacs diary-ajax.html
+#+1497401045
+ls
+#+1497401077
+ls
+#+1497401079
+cd ..
+#+1497401079
+ls
+#+1497401082
+cd public_html/
+#+1497401173
+ls
+#+1497401295
+emacs index.html
+#+1497401307
+ls
+#+1497401316
+rm index.html
+#+1497401317
+ls
+#+1497401320
+cd ..
+#+1497401320
+ls
+#+1497401325
+ls -l
+#+1497401477
+cd my_diary
+#+1497401479
+ls
+#+1497401488
+cd ..
+#+1497401489
+ls
+#+1497401493
+emacs public_html
+#+1497401522
+ls
+#+1497401527
+cd publi_html
+#+1497401531
+cd public_htm
+#+1497401533
+cd public_html
+#+1497401537
+ls
+#+1497401539
+ls -l
+#+1497401600
+abc.html
+#+1497401641
+open diary-ajax.html
+#+1497401652
+start diary-ajax.html
+#+1497401749
+exit
+#+1497402999
+ls
+#+1497403005
+cd public_html
+#+1497403007
+ls -a
+#+1497403264
+ls -l
+#+1497403269
+cd ..
+#+1497403269
+ls
+#+1497403271
+ls -l
+#+1497403282
+cd public_html
+#+1497403283
+ls
+#+1497403301
+exit
